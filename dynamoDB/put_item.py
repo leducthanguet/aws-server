@@ -1,8 +1,8 @@
 from http import client
 import boto3
 
-client = boto3.client('dynamodb', aws_access_key_id="AKIA6JN56SFDTB66CQKO",
-                      aws_secret_access_key="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",
+client = boto3.client('dynamodb', aws_access_key_id="",
+                      aws_secret_access_key="",
                       region_name="ap-northeast-1")
 
 res = client.put_item(
